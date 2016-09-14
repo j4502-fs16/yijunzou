@@ -1,0 +1,11 @@
+h1 {
+  font-family: Georgia, serif;
+}
+p {
+  font-family: helvetica;
+  weight: bold;
+  color: #fff;
+}
+body {
+  background-color: black;
+}
