@@ -1,13 +1,13 @@
 h1 {
-  font-family: Georgia, serif;
+  font-family: Georgia, "Times New Roman",serif;
   font-size: 6em;
   color:#62D0FF;
   text-align: center;
   margin: 0;
 }
 p {
-  font-family: helvetica;
-  font-weight: bold;
+  font-family: Tahoma,"Geneva", sans-serif;
+  font-weight: normal;
   color: #fff;
   text-align: center;
 }
@@ -48,6 +48,7 @@ a {
 }
 p a {
   text-decoration: none;
+
 }
 #container1 {
   background-color: #62D0FF;
@@ -59,4 +60,9 @@ img.displayed{
 }
 img {
   border-style: none;
+}
+#container2 {
+  background-color: #62D0FF;
+  width: 90%;
+  margin: 0 auto;
 }
