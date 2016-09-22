@@ -1,15 +1,17 @@
-h1 {
-  font-family: Georgia, "Times New Roman",serif;
-  font-size: 6em;
-  color:#62D0FF;
+
+p{
+  font-family: 'Dosis', sans-serif;
   text-align: center;
-  margin: 0;
-}
-p {
-  font-family: Tahoma,"Geneva", sans-serif;
   font-weight: normal;
   color: #fff;
-  text-align: center;
+  font-size: 15pt;
+  padding: 0;
+  margin: auto;
+  padding: 0.1em;
+}
+p a{
+  color:#FF9191;
+  font-weight: bold;
 }
 body {
   background-color: #fff;
@@ -18,32 +20,32 @@ a {
   text-decoration: none;
   color: #fff;
 }
+.displayed {
+  float:left;
+  width: 300px;
+}
 #nav li{
   list-style: none;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 25%;
+  float: right;
+  margin:30px 0;
+  padding:0;
+  width: 10%;
 }
 #nav a:link, #nav a:visited {
-	display:block;
-    color: #44B0F6;
-    background-color: #FFF46D;
+	display:inline-block;
+    color: #fff;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
-    padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
-}
-#nav {
-  padding: 0;
+    font-family:'Bitter', serif;
 }
 #nav a:hover, #nav a:active {
-    background-color: #FFB740;
+    color: #FF9191;
 }
 #container {
-  width: 90%;
-  background-color: #FFFDE2;
+  width: 100%;
+  height: 220px;
+  background-color: #28292A;
   margin: 0 auto;
 }
 p a {
@@ -51,18 +53,39 @@ p a {
 
 }
 #container1 {
-  background-color: #62D0FF;
+  background-color: #FF9191;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
 }
 img.displayed{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+}
+.change img {
+  width: 30%;
+  padding: 0px;
+  float: left;
+  margin: 20px;
+}
+.change li{
+  list-style: none;
+}
+li p{
+  background-color: #28292A;
+  margin: 0;
+  padding: 5%;
 }
 img {
   border-style: none;
 }
 #container2 {
-  background-color: #62D0FF;
-  width: 90%;
+  width: 100%;
+  height: 220px;
+  background-color: #28292A;
   margin: 0 auto;
+}
+#footer {
+  color: #000;
+  font-family: 'Dosis', sans-serif;
+  font-weight: lighter;
 }
