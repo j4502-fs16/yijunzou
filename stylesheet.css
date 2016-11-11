@@ -107,7 +107,7 @@ h1{
   flex-flow: column;
   justify-content: space-around;
 }
-nav ul{
+.navigation {
   display: none;
 }
 
@@ -116,9 +116,7 @@ nav ul{
     visibility: hidden;
     display: none;
   }
-  nav ul{
-    display: flex;
-  }
+
 }
 @media all and (min-width:450px){
 
