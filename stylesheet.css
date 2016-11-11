@@ -95,7 +95,9 @@ h1{
   padding:10px;
   text-align:center;
 }
-
+.menu-trigger {
+  order: 1;
+}
 .navigation a{
   text-decoration: none;
   display: block;
