@@ -105,13 +105,16 @@ h1{
   flex-flow: column;
   justify-content: space-around;
 }
-
+nav ul{
+  display: none;
+}
 
 @media all and (max-width:449px) {
   .paragraph{
     visibility: hidden;
     display: none;
   }
+
 }
 @media all and (min-width:450px){
 
@@ -190,6 +193,17 @@ h1{
   }
 }
 
+@media screen and (min-width:700px) {
+  nav ul{
+    display: flex;
+  }
+  nav ul li{border-top: none;
+  }
+  .menu-trigger {
+    display: none;
+  }
+
+}
 
 @media all and (min-width:800px){
   .head{
