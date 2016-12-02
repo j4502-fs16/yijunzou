@@ -1,3 +1,4 @@
+
 .introduction, .aside, .footer {
   font-family: 'bitter',serif;
   font-size: 0.8em;
@@ -229,4 +230,18 @@ h1{
     max-width:400px;
   }
 
+}
+.map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-wrapper iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:80%;
+    position:absolute;
 }
